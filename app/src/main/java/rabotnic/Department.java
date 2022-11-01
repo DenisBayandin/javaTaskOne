@@ -40,10 +40,10 @@ public class Department {
     public String informationHuman(int workHumanNumber){
         int salaryHuman = 0;
         salaryHuman = dep.get(workHumanNumber).pay * dep.get(workHumanNumber).getWorkTime();
-        return "Name = "+ dep.get(workHumanNumber).getName() + 
-                ", pay = " + dep.get(workHumanNumber).getPay() + 
-                ", work time = " + dep.get(workHumanNumber).getWorkTime() + 
-                ", salary = " + salaryHuman;
+        return "My name is "+ dep.get(workHumanNumber).getName() + 
+                ", my pay " + dep.get(workHumanNumber).getPay() + 
+                ", number of hours I work " + dep.get(workHumanNumber).getWorkTime() + 
+                ", my salary " + salaryHuman;
         
     }
     

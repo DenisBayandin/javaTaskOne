@@ -16,7 +16,7 @@ public class MyFrame extends JFrame {
     
     public  MyFrame(MyPanel p){
         panel = p;
-        setTitle("WorkerHuerker");
+        setTitle("Worker Human");
         add(panel);
         setSize(1000, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
