@@ -10,7 +10,7 @@ import java.util.Observable;
  *
  * @author Баян
  */
-abstract class WorkHuman extends Observable{
+abstract public class WorkHuman extends Observable{
     String name;
     int age;
     int pay;
